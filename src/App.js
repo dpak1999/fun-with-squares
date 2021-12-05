@@ -1,12 +1,17 @@
 /** @format */
 
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import IsSquare from './components/IsSquare';
 import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Navbar />
-    </div>
+      <Routes>
+        <Route path="/square" element={<IsSquare />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
