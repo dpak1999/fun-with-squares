@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div class="bg-white shadow">
-      <div class="container mx-auto px-4">
-        <div class="flex items-center justify-between py-4">
+    <div className="bg-white border-b">
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between py-4">
           <div className="text-purple-600 text-xl font-bold font-mono">
             Fun with squares
           </div>

@@ -6,12 +6,14 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/square" element={<IsSquare />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/square" element={<IsSquare />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
