@@ -7,13 +7,15 @@ const Navbar = () => {
     <div className="bg-white border-b">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
-          <div className="text-purple-600 text-xl font-bold font-mono">
-            Fun with squares
-          </div>
+          <Link to="/">
+            <div className="text-purple-600 text-xl font-bold font-mono">
+              Fun with squares
+            </div>
+          </Link>
 
           <div class="hidden sm:flex sm:items-center">
             <Link
-              to="/square"
+              to="/"
               className="text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4"
             >
               Is square?
@@ -31,7 +33,7 @@ const Navbar = () => {
               Area
             </Link>
             <Link
-              to="/"
+              to="/perimeter"
               className="text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4"
             >
               Perimeter

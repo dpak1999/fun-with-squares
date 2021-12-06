@@ -2,14 +2,14 @@
 
 import { useState } from 'react';
 
-const Area = () => {
+const Perimeter = () => {
   const [side, setSide] = useState('');
-  const [area, setArea] = useState('');
+  const [perimeter, setPerimeter] = useState('');
 
   const handleClick = () => {
     const length = Number(side);
-    const ar = Math.pow(length, 2);
-    if (ar) setArea(ar);
+    const perimeter = 4 * length;
+    if (perimeter) setPerimeter(perimeter);
   };
 
   return (
@@ -35,10 +35,10 @@ const Area = () => {
         </button>
       </div>
       <div className="text-center mt-6 text-2xl font-mono text-green-500">
-        {area ? `The area of square is ${area} sq cm.` : ''}
+        {perimeter ? `The perimeter of square is ${perimeter} cm.` : ''}
       </div>
     </div>
   );
 };
 
-export default Area;
+export default Perimeter;
