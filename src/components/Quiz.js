@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 const Quiz = () => {
   const answers = ['4', '90', 'true'];
-  const [score, setScore] = useState(0);
+  const [score, setScore] = useState('');
   const [state, setState] = useState({
     q1: '',
     q2: '',
@@ -127,7 +127,7 @@ const Quiz = () => {
       </div>
 
       <div className="text-center mt-9 text-2xl text-purple-500">
-        Your score is {score && score}
+        {score && <span>Your score is {score}</span>}
       </div>
     </div>
   );
