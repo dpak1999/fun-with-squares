@@ -19,7 +19,7 @@ const Navbar = () => {
               Is square?
             </Link>
             <Link
-              to="/"
+              to="/quiz"
               className="text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4"
             >
               Quiz

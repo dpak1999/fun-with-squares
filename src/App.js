@@ -3,6 +3,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import IsSquare from './components/IsSquare';
 import Navbar from './components/Navbar';
+import Quiz from './components/Quiz';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/square" element={<IsSquare />} />
+          <Route path="/quiz" element={<Quiz />} />
         </Routes>
       </BrowserRouter>
     </>
