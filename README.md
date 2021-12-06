@@ -1,31 +1,12 @@
 <!-- @format -->
 
-# React Tailwind Started Template
+# Fun with squares
 
-This is a bare bones react tailwind setup for speed development without any hassle.
+- This is an application built with react which has the following features
 
-## Available Scripts
+  1. Check if shape given is square
+  1. Find area of square
+  1. Find perimeter of a square
+  1. Quiz on square
 
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-### `yarn build:css`
-
-It initialises postbuild and creates a development build of tailwind css and stores it inside `src/assets/index.css`
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Click [here](https://relaxed-yonath-213906.netlify.app/) to view the app anad have fun
