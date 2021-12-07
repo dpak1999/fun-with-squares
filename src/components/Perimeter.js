@@ -31,7 +31,7 @@ const Perimeter = () => {
           onClick={handleClick}
           className="border border-purple-500 rounded py-2 px-5 cursor-pointer hover:bg-purple-500 hover:text-white"
         >
-          Find area
+          Find perimeter
         </button>
       </div>
       <div className="text-center mt-6 text-2xl font-mono text-green-500">
